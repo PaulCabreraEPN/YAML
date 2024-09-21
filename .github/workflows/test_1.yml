@@ -1,0 +1,10 @@
+name: Mi Primer Workflow
+on: {push}
+
+jobs:
+  myjob:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: One
+      run: echo "Hola Amigos de GitHub"

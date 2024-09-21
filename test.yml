@@ -1,0 +1,10 @@
+key: HOLA MUNDO 
+
+person:
+  name: Paul
+  city: Quito
+  age: 20
+  items:
+    - item1
+    - item2
+    - item3
