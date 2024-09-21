@@ -8,6 +8,15 @@ jobs:
     steps:
     - name: One
       run: echo "Hola Amigos de GitHub"
+
+    - name: touch file
+      run: touch mi_archivo.txt
+    
+    - name: set text 
+      run: echo "Esto es YAML" >> mi_archivo.txt 
+
+    - name: read file
+      run: cat mi_archivo.txt
       
   mysecondjob:
     runs-on: ubuntu-latest
