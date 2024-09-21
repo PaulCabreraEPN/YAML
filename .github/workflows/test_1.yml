@@ -1,5 +1,5 @@
 name: Mi Primer Workflow
-on: {push}
+on: push
 
 jobs:
   myjob:
@@ -8,3 +8,10 @@ jobs:
     steps:
     - name: One
       run: echo "Hola Amigos de GitHub"
+      
+  mysecondjob:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: ls
+      run: ls- al
