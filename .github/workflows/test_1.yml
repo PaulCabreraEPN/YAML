@@ -13,7 +13,7 @@ jobs:
       run: touch mi_archivo.txt
     
     - name: set text 
-      run: echo "Esto es YAML" >> mi_archivo.txt 
+      run: echo "Esto es YAML 2" >> mi_archivo.txt 
 
     - name: read file
       run: cat mi_archivo.txt
